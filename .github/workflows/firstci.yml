@@ -25,5 +25,5 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/townsend-lisa-intro-to-devops-a2:test:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/townsend-lisa-intro-to-devops-a2:latest
  
