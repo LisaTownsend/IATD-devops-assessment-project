@@ -18,7 +18,7 @@ let input = "";
 do {
     console.clear();
     logSeparated("MENU", lineLength);
-    input = readlineSync.keyInSelect(mainMenuOptions, "Please select an action to continue ,,,", {cancel: false});
+    input = readlineSync.keyInSelect(mainMenuOptions, "Please select an action to continue", {cancel: false});
 
     switch (input) {
         case 0:
