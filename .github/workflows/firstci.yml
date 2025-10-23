@@ -37,7 +37,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
-          file: ./Dockerfiles/test/test.Dockerfile
+          file: ./Dockerfiles/Test/test.Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/townsend-lisa-intro-to-devops-a2:latest
 
@@ -45,6 +45,6 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
-          file: ./Dockerfiles//user/user.Dockerfile
+          file: ./Dockerfiles//User/user.Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/townsend-lisa-intro-to-devops-a2:user_latest
