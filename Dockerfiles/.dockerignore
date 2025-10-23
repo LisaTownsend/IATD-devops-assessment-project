@@ -1,4 +1,9 @@
+# Ignore git and github metadata
 .git
 .github
-Dockerfiles
-user.Dockerfilenode_modules
+
+# Ignore DOckerfiles directory and files inside it
+Dockerfiles/
+user.Dockerfiles
+Dockerfile
+
