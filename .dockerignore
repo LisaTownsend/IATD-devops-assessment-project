@@ -1,8 +1,0 @@
-# Ignore Git and GitHub metadata
-.git
-.github
-
-#Ignore Dockerfiles directories and any files inside it
-Dockerfiles/
-Dockerfile
-User.Dockerfile

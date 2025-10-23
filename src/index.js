@@ -25,7 +25,7 @@ do {
             console.clear();
             logSeparated("Current Schedule", lineLength);
             printScheduleTable(flights);
-            readlineSync.keyInPause(wrapString("Press q to return to main menu.."), {limit: ["q"], guide: false});
+            readlineSync.keyInPause(wrapString("Press q to return to main menu..."), {limit: ["q"], guide: false});
             console.clear();
             break;
         case 1: {
