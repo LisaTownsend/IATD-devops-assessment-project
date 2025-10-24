@@ -2,4 +2,5 @@
 .github
 
 Dockerfiles/
+node_modules/
 tests/
