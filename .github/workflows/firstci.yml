@@ -1,6 +1,8 @@
 
 
 
+
+
 name: Main CI
 
 on: push
@@ -49,13 +51,12 @@ jobs:
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/townsend-lisa-intro-to-devops-a2:latest
           no-cache: true 
-
-       
+     
       - name: Build user-facing image and push to Docker Hub
         uses: docker/build-push-action@v5
         with:
           context: .
-          file: .Dockerfiles/User/user.Dockerfile
+          file: ./Dockerfiles/User/user.Dockerfile
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/townsend-lisa-intro-to-devops-a2:user_latest
           no-cache: true 
