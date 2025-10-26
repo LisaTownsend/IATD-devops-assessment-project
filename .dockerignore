@@ -1,5 +1,5 @@
 .git
 .github
 
-Dockerfiles/
-node_modules/
+/Dockerfiles
+/node_module
